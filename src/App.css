@@ -1,0 +1,106 @@
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  cursor: pointer;
+  background-color: rgb(7, 120, 164);
+}
+
+.mainNav {
+  display: flex;
+  justify-content: space-between;
+  background-color: skyblue;
+  align-items: center;
+  padding: 10px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+.navLink{
+  gap: 20px;
+  display: flex;
+}
+.navLink:hover{
+  align-items: center;
+  justify-content: center;
+}
+.navLink1:hover{
+  font-size: 20px;
+background-color: white;
+padding: 2px 5px;
+border-radius: 10px;
+}
+.navLink2:hover{
+  font-size: 20px;
+background-color: white;
+padding: 2px 5px;
+border-radius: 10px;
+}
+.navLink3:hover{
+  font-size: 20px;
+background-color: white;
+padding: 2px 5px;
+border-radius: 10px;
+}
+.footer{
+  background-color: grey;
+  margin-top: 350px;
+  color: white;
+  display: flex;
+  gap: 10px;
+  padding: 0px 10px;
+  }
+
+  .footer:hover{
+    font-weight: 700;
+  }
+
+.signBtn {
+  background-color: white;
+  color: black;
+  padding: 8px 18px;
+  border-radius: 10px;
+}
+.signBtn:hover{
+  background-color:rgb(243, 16, 16) ;
+  color: white;
+  font-size: 18px;
+}
+.backBtn{
+  background-color: rgb(97, 154, 177);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.backBtn:hover{
+  background-color: rgb(243, 16, 16);
+  color: whitesmoke;
+  font-size: 20px;
+}
+.logoBtn:hover{
+font-size: 20px;
+background-color: white;
+padding: 2px 5px;
+border-radius: 10px;
+}
+
+.errorPage{
+color: white;
+}
+
+.errImg{
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 150px;
+}
+.backbtnAlignment{
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
