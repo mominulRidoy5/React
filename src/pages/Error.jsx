@@ -9,7 +9,7 @@ function Error() {
       <span><img className="errImg" src="error.jpg" alt="hola" />
  </span>
  </div>
-<div className="backbtnAlignment">
+ <div className="backbtnAlignment">
     <Link to="/" className="backBtn">Go Home</Link>
     </div>
 

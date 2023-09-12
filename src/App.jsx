@@ -9,10 +9,24 @@ import SignIn from "./pages/SignIn";
 import Error from "./pages/Error";
 import Footer from "./pages/Footer";
 
+
 const App = () => {
   return (
     <>
-      <NavBar />
+<div className="backC">
+  <nav className="upNav">
+    <div className="upMain1">
+    <Link to='signin' href="https://www.facebook.com/bongodev">support@bongodev.com</Link>
+  <a> +880-1911666994</a>
+    </div>
+    <div>
+<Link to="/signin" className="signBtn">SIGN IN</Link>
+
+    </div>
+
+  </nav>
+  </div> 
+       <NavBar />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
@@ -25,7 +39,5 @@ const App = () => {
     </>
   );
 };
-
-
 
 export default App;

@@ -1,11 +1,11 @@
 #root {
   max-width: 100%;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
   padding: 2rem;
   cursor: pointer;
-  background-color: rgb(7, 120, 164);
+  background-color: rgb(16, 162, 220);
 }
 
 .mainNav {
@@ -14,43 +14,38 @@
   background-color: skyblue;
   align-items: center;
   padding: 10px;
+  border-radius: 10px;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-  font-weight: 500;
-}
+
 .navLink{
   gap: 20px;
   display: flex;
-}
-.navLink:hover{
-  align-items: center;
-  justify-content: center;
+  padding: 15px;
 }
 .navLink1:hover{
-  font-size: 20px;
+  font-size: 15px;
 background-color: white;
 padding: 2px 5px;
 border-radius: 10px;
 }
 .navLink2:hover{
-  font-size: 20px;
+  font-size: 15px;
 background-color: white;
 padding: 2px 5px;
 border-radius: 10px;
 }
 .navLink3:hover{
-  font-size: 20px;
+  font-size: 15px;
 background-color: white;
 padding: 2px 5px;
 border-radius: 10px;
 }
 .footer{
   background-color: grey;
-  margin-top: 350px;
+  margin-top: 100px;
   color: white;
   display: flex;
+  justify-content: space-between;
   gap: 10px;
   padding: 0px 10px;
   }
@@ -82,10 +77,9 @@ border-radius: 10px;
   font-size: 20px;
 }
 .logoBtn:hover{
-font-size: 20px;
 background-color: white;
 padding: 2px 5px;
-border-radius: 10px;
+border-radius: 50%;
 }
 
 .errorPage{
@@ -103,4 +97,94 @@ color: white;
   align-items: center;
   justify-content: center;
   margin-left: 200px;
+}
+.upNav{
+  background-color: rgba(53, 2, 2, 0.437);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  align-items: center;
+  padding: 15px;
+}
+.upMain1{
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+}
+
+.allBtn{
+  color: white;
+  background-color: brown;
+padding: 5px;
+border-radius: 10px;
+font-size: 30px;
+  
+}
+.allBtn:hover{
+  background-color:  rgb(16, 162, 220);
+  color: white;
+}
+.playImg{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.downBtn{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.secondSite{
+
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+}
+.paraghraph{
+ padding: 5px 300px;
+ font-weight: 500;
+}
+.holaClass{
+  font-size: 40px;
+  margin-top: 50px;
+  color: orangered;
+  margin-left: 30%;
+}
+.thirdRoll{
+  align-items: center;
+  justify-content: center;
+  display: grid;
+}
+.bongoGround{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+.card1{
+ background-image: url(backgrnd.jpg);
+height: 600px;
+width: 500px;
+padding: 10px;
+}
+.firstLane{
+  display: flex;
+  justify-content: space-around;
+padding: 30px; 
+color: white; 
+}
+.imageItem{
+  color: white;
+  background-color: green;
+  padding: 5px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+.cardImg{
+width: 100%;
+border-radius: 20px;
+}
+.aboutUs{
+  width: 100%;
+  background-color: white;
 }
