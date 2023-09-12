@@ -11,7 +11,7 @@ export default function Home() {
     <p>Irrespective of your location,engage in online live classes <br /> to gain extensive expertise in web development, programming, problem-solving,<br /> and DevOps. elevate your skills in these domains through top-notch education and position yourself for rewarding career prospects. </p>
 <br />
 <div className="downBtn">
-<a href="https://bongodev.com/" target="blank" className="allBtn">All Courses</a>
+<a href="https://bongodev.com/all-courses/" target="blank" className="allBtn">All Courses</a>
 <img className="playImg" src="playbtn.jpg" alt="" />
 <h2>How It Works</h2>
 </div>
@@ -116,7 +116,7 @@ export default function Home() {
     </div>
     <div style={{display:"flex", alignItems:"center", justifyContent:"center"}}>
       <span>
-      <h1>Become a<br /><span style={{backgroundColor:"yellow", fontSize:40}}>Machine <br /> Learning </span><br /> Expert</h1>
+      <h1>Become a<br /><span style={{backgroundColor:"yellowgreen", fontSize:40}}>Machine <br /> Learning </span><br /> Expert</h1>
       </span>
       <span>
         <img className="cardImg" src="machine.jpg" alt="" />
