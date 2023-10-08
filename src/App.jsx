@@ -16,8 +16,8 @@ const App = () => {
 <div className="backC">
   <nav className="upNav">
     <div className="upMain1">
-    <a to='signin' target="blank" href="https://www.facebook.com/bongodev">support@bongodev.com</a>
-  <a> +880-1911666994</a>
+    <a className="upnavS" to='signin' target="blank" href="https://www.facebook.com/bongodev">support@bongodev.com</a>
+  <a className="upnavS"> +880-1911666994</a>
     </div>
     <div>
 <Link to="/signin" className="signBtn">SIGN IN</Link>
